@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "PM Kisan Samman Nidhi",
+    "category": "Farmer",
+    "community": "All",
+    "state": "All",
+    "min_age": 18,
+    "max_income": 150000,
+    "benefit": 6000,
+    "description": "₹6000 per year to small and marginal farmers.",
+    "documents": ["Aadhaar Card", "Land Records", "Bank Passbook"]
+  },
+  {
+    "id": 2,
+    "name": "Post Matric Scholarship",
+    "category": "Student",
+    "community": "SC/ST/OBC",
+    "state": "All",
+    "min_age": 17,
+    "max_income": 250000,
+    "benefit": 48000,
+    "description": "Financial assistance for higher education.",
+    "documents": ["Aadhaar Card", "Income Certificate", "College ID"]
+  },
+  {
+    "id": 3,
+    "name": "PM Ujjwala Yojana",
+    "category": "Household",
+    "community": "BPL",
+    "state": "All",
+    "min_age": 18,
+    "max_income": 200000,
+    "benefit": 1600,
+    "description": "Free LPG gas connection to eligible households.",
+    "documents": ["Aadhaar Card", "Ration Card"]
+  }
+]

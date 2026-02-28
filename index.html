@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Government Scheme Awareness Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="hero">
+    <h1>AI Government Scheme Awareness Agent</h1>
+</div>
+
+<div class="container">
+
+    <h3>Enter Your Details</h3>
+    <input type="number" id="age" placeholder="Age">
+    <input type="number" id="income" placeholder="Annual Income">
+    <input type="text" id="category" placeholder="Category (Student/Farmer/etc)">
+    <input type="text" id="community" placeholder="Community (SC/ST/OBC/General)">
+    <input type="text" id="state" placeholder="State">
+    <button onclick="findSchemes()">Find Schemes</button>
+
+    <h3>Eligible Schemes</h3>
+    <div id="results"></div>
+    <h3 id="missed"></h3>
+
+    <hr>
+
+    <h3>Check Fake / Fraud Scheme Message</h3>
+    <textarea id="fraudText" placeholder="Paste message here"></textarea>
+    <button onclick="checkFraud()">Check Message</button>
+    <p id="fraudResult"></p>
+
+    <br><br>
+    <a href="/admin" target="_blank">View Admin Dashboard</a>
+
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
